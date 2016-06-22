@@ -1,0 +1,93 @@
+ahref("www.google.fr", "");
+ahref("www.google.fr");
+ahref("www.google.fr", "ici");
+
+br(); br();
+
+button("Mon boutton", "maFctJs()");
+
+buttonEx("1", "Mon Boutton Exemple 1");
+
+buttonRadio("Vehicule","velo"); 
+buttonRadio("Vehicule","voiture"); 		
+buttonRadio("decoupeFasta","classe", $decoupeFasta, "classe"); 
+buttonRadio("decoupeFasta","unique", $decoupeFasta, "unique"); 		
+
+cssPage("maPageCss");
+
+div();
+div("classeDiv");
+div("", "IDdiv");
+
+ficField("monChampFichier", "monChampFichier");
+
+fieldset("la legende du titre", "titre");
+
+finDiv();
+
+finFieldset();
+
+finForm();
+
+finHeaderPage();
+
+finP();
+
+finPage();
+
+finForm();
+
+finTab();
+
+finTabR();
+
+form("actionduform.php");
+
+h1();
+h1("Titre grand!");
+
+h2();
+h2("Titre moyen");
+
+h3();
+h3("Titre normal");
+
+h4();
+h4("Titre petit");
+
+headerPage("titre de la page");
+headerPage();
+
+hr("50%", "left");
+hr("0%", "center");
+hr("30%", "right");
+
+jsPage("mapagejs.js");
+
+label("le texte du label", "sa légende");
+label("le texte du label", "sa légende", "l'id de son champ");
+
+p();
+p("", "son id");
+p("classP");
+
+scriptJS("un code javascript");
+
+submitButton();
+
+tab();
+tab("sortable");
+
+tabD("mon texte", "center");
+tabD("mon texte");
+tabD();
+
+tabH("mon texte", "left");
+tabH("mon texte");
+tabH();
+
+textField("id et nom du champ", "valeur par defaut");
+
+textareaField("nom du champ");
+textareaField("nom du champ", "", "30", "50");
+textareaField("nom du champ", "id", "", "", "mon texte d'exemple");

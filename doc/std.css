@@ -1,0 +1,614 @@
+/*  (gH)   -_-  std.css  ;  TimeStamp (unix) : 16 Août 2011 vers 12:50 */
+
+/* version 7.07 */
+
+.aligne { text-align : justify }
+
+p.texte                 { text-align : justify ; background-color: white }
+p.texteInterligneDouble { text-align : justify ; background-color: white ; line-height:2em}
+p.texteInterligne1p5    { text-align : justify ; background-color: white ; line-height:1.5em}
+.doubleInterligne      { line-height:2em}
+li.texte                { text-align : justify }
+
+.cadre       { border: thin solid ; margin-left: 30px;   background-color: #DDDDDD ; margin : 25px  ; padding : 10px }
+.cadrem      { border: thin solid ; margin-left: 30px;   background-color: #DDDDDD ; margin : 25px  ; padding : 30px }
+.cadrejaune  { border: thin solid ; margin-left: 30px;   background-color: #FFFFCC ; margin : 25px  ; padding : 10px }
+.cadrebleu   { border: thin solid ; margin-left: 30px;   background-color: #CCFFFF ; margin : 25px  ; padding : 10px }
+.cadreorange { border: thin solid ; margin-left: 30px;   background-color: orange  ; margin-right : 80px  ; }
+.cadrej      { border: thin solid ; margin-left: 3px;    background-color: #DDDDDD; margin-right: 8px  ; text-align : justify ; padding : 25px }
+.cadreV      { border: thin solid ; margin-left: 30px;   background-color: #CDDDDC; margin-right: 100px  }
+.cadreB      { border: thin solid ; margin-left: 30px;   background-color: blue ; margin-right: 100px  }
+.rouge  {                      color: #990000  }
+.grouge { font-weight : bold ; color : #990000  }
+.gbleu  { font-weight : bold ; color: blue     }
+.gbleuf { font-weight : bold ; color: #000088  }
+.pbleu  { font-size:  1em ;      color: blue     }
+.t1     { font-size:  1em ;      }
+.t3     { font-size:  3em ;      color: blue     }
+.t4     { font-size:  4em ;      color: blue     }
+.ti4    { font-size:  1em ;      color: blue     }
+.bleu   { font-weight : normal ; color: blue     }
+.bleuf  {                      color: #000099  }
+.vert   {  color: green  ; background-color: transparent;  }
+.gvert  { font-weight : bold ; color: green ; background-color: transparent;   }
+.vertf  { color: #008800    }
+.gvertf { font-weight : bold ; color: #008800    }
+.nou    {  text-decoration : none }
+.gnoir  { font-weight : bold ; color: black    }
+
+.orange  { color: #FF0033    }
+.borange  { color: #FF0033    }
+
+.tavert   { color: green   ; background-color: #FFCC33; }
+.tarose   { color: black   ; background-color: #FFCCFF; }
+.tarouge  { color: #990000 ; background-color: #FFFF00; }
+.tagris   { color: black   ; background-color: #DDDDDD; }
+.tajaunec { color: blue    ; background-color: #FFFFCC; }
+.tableu   { color: blue    ; background-color: #CCFFFF; }
+b3.hover {
+color:yellow;
+}
+
+.cadregris {  border: thin solid ; }
+
+.ok:link{
+width:150px;
+height:30px;
+text-decoration:none;
+color:yellow;
+text-align:center;
+font-weight:bold;
+background-color:green;
+padding:5px;
+border-style:outset;
+border-width:2px;
+border-color:silver ;
+background-color: #EEEEEE;
+}
+
+.ok:visited{
+width:150px;
+height:30px;
+text-decoration:none;
+color:yellow;
+text-align:center;
+font-weight:bold;
+background-color:green;
+padding:5px;
+border-style:outset;
+border-width:2px;
+border-color:silver ;
+background-color: #EEEEEE;
+}
+
+.ok:hover{
+color:yellow ;
+background-color:red ;
+}
+
+/***********************************************************/
+
+.bouton {
+  height: 30px ;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 5px ;
+  margin-top: 8px ;
+  margin-bottom: 8px ;
+  padding-top: 8px ;
+  border-width:1px;
+  border-color:black ;
+  border-style:outset;
+}
+
+.bouton_href {
+  height: 40px ;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 5px ;
+  margin-top: 8px ;
+  margin-bottom: 12px ;
+  padding-top: 8px ;
+  padding-bottom: 8px ;
+  border-width:1px;
+  border-color:black ;
+  border-style:outset;
+}
+
+.bouton_href2 {
+  text-decoration: none;
+  text-align: center;
+  border-width:1px;
+  border-color:black ;
+  border-style:outset;
+  color : black ;
+}
+
+.bouton_submit {
+  height: 40px ;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 5px ;
+  margin-top: 8px ;
+  margin-bottom: 12px ;
+  padding-bottom: 8px ;
+  padding-top: 8px ;
+  border-width:1px;
+  border-color:black ;
+  border-style:outset;
+}
+
+.bouton_rectangulaire {
+  height: 30px ;
+  width: 180px ;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 15px ;
+  margin  : 8px ;
+  padding : 8px ;
+  border-width:1px;
+  border-color:black ;
+  background-color: #FFFFCC ;
+  border-style:outset;
+}
+
+.bouton_rectangulaire2 {
+  height: 50px ;
+  width: 180px ;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 15px ;
+  margin-top: 8px ;
+  padding-top: 8px ;
+  border-width:1px;
+  border-color:black ;
+  background-color: #FFFFCC ;
+  border-style:outset;
+}
+
+.bouton_rectangulaire_sur_fond_bleu {
+  height: 30px ;
+  width: 180px ;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 15px ;
+  margin-top: 8px ;
+  padding: 8px ;
+  border-width:1px;
+  border-color:black ;
+  background-color: #000080;
+  color : white ;
+  border-style:outset;
+}
+
+.bouton_rectangulaire_sur_fond_jaune {
+  height: 30px ;
+  width: 180px ;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 15px ;
+  margin-top: 8px ;
+  padding: 8px ;
+  border-width:1px;
+  border-color:black ;
+  background-color: yellow;
+  color : #000088 ;
+  border-style:outset;
+}
+
+.bouton_rectangulaire_sur_fond_orange {
+  height: 30px ;
+  width: 180px ;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 15px ;
+  margin-top: 8px ;
+  padding: 8px ;
+  border-width:1px;
+  border-color:black ;
+  background-color: #FF6600 ;
+  color : #000088 ;
+  border-style:outset;
+}
+
+.bouton_rectangulaire_orange {
+  height: 30px ;
+  width: 180px ;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 15px ;
+  margin-top: 8px ;
+  padding: 8px ;
+  border-width:1px;
+  border-color:black ;
+  color : #000088 ;
+  border-style:outset;
+}
+
+.bouton_rectangulaire_sur_fond_rouge {
+  height: 30px ;
+  width: 180px ;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 15px ;
+  margin-top: 8px ;
+  padding: 8px ;
+  border-width:1px;
+  border-color:black ;
+  background-color: #880000;
+  color : yellow ;
+  border-style:outset;
+  vertical-align : middle ;
+  /*font-size : larger ; */
+}
+
+.bouton_rectangulaire_sur_fond_vert {
+  height: 30px ;
+  width: 180px ;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 15px ;
+  margin-top: 8px ;
+  padding: 8px ;
+  border-width:1px;
+  border-color:black ;
+  background-color: #008800;
+  color : yellow ;
+  border-style:outset;
+}
+
+.bouton_fin {
+  border-width:1px;
+  margin:2px;
+  padding:2px;
+  padding-left:4px;
+  padding-right:4px;
+  color : black ;
+  border-style:outset;
+}
+
+body.beige_jpg { background-image:url("beige.jpg") }
+.align_right   { text-align: right }
+
+
+.bgcolor_white  {  background-color: #FFFFFF }
+.bgcolor_jaune  {  background-color: #FFFF99 }
+.bgcolor_orange {  background-color: #FF6633 }
+.bgcolor_bleuc  {  background-color: #0000BB }
+.bgcolor_bleuf  {  background-color: #000088 }
+.bgcolor_vertf  {  background-color: #008800 }
+.bgcolor_vertc  {  background-color: #00BB00 }
+
+
+.coulGH    { color : #006600                   }
+.centre    { text-align: center }
+.center    { text-align: center }
+.droite    { text-align: right }
+.gauche    { text-align: left }
+.gras      { font-weight : bold ; }
+
+.vutext_decoration_none { text-decoration : none ; }
+.sans_decoration { text-decoration : none ; }
+.border_none { border : none }
+.border_none { border : none }
+.encadre { border : solid 1px }
+
+.ptextecadre {
+            border: thin solid;
+            background-color: #DDDDDD ;
+            margin : 45px  ;
+            padding : 30px ;
+            text-align : justify ;
+}
+
+ /* ne pas changer l'ordre des définitions... */
+
+.bgcolor_black_encadre   { border : solid 1px ; background-color: #000000 ; } /*  1 */
+.bgcolor_bleuc_encadre   { border : solid 1px ; background-color: #3399FF ; } /*  2 */
+.bgcolor_rouge_encadre   { border : solid 1px ; background-color: #FF0000 ; } /*  3 */
+.bgcolor_bleuf_encadre   { border : solid 1px ; background-color: #000088 ; } /*  4 */
+.bgcolor_vertf_encadre   { border : solid 1px ; background-color: #008800 ; } /*  5 */
+.bgcolor_violet_encadre  { border : solid 1px ; background-color: #660066 ; } /*  6 */
+.bgcolor_marron_encadre  { border : solid 1px ; background-color: #996600 ; } /*  7 */
+.bgcolor_orange_encadre  { border : solid 1px ; background-color: #FF6633 ; } /*  8 */
+.bgcolor_rose_encadre    { border : solid 1px ; background-color: #FF99FF ; } /*  9 */
+.bgcolor_vertc_encadre   { border : solid 1px ; background-color: #CCFF66 ; } /*  10 */
+.bgcolor_grisf_encadre   { border : solid 1px ; background-color: #666666 ; } /*  11 */
+.bgcolor_jaunef_encadre  { border : solid 1px ; background-color: #FFFF00 ; } /*  12 */
+.bgcolor_ocre_encadre    { border : solid 1px ; background-color: #CCCC00 ; } /*  13 */
+.bgcolor_bleum_encadre   { border : solid 1px ; background-color: #66FFFF ; } /*  14 */
+.bgcolor_vertm_encadre   { border : solid 1px ; background-color: #33FF00 ; } /*  15 */
+.bgcolor_violm_encadre   { border : solid 1px ; background-color: #990066 ; } /*  16 */
+.bgcolor_slate_encadre   { border : solid 1px ; background-color: #99CCFF ; } /*  17 */
+
+.coul000000 { color : #000000 ; }
+.coul880000 { color : #880000 ; }
+.coul008800 { color : #008800 ; }
+.coul000088 { color : #000088 ; }
+.coul660066 { color : #660066 ; }
+.coul996600 { color : #996600 ; }
+.coul3399FF { color : #3399FF ; }
+
+.bgcolor_jaune_encadre   { border : solid 1px ; background-color: yellow  ; }
+.bgcolor_blanc_encadre   { border : solid 1px ; background-color: white   ; }
+.bgcolor_vert_encadre    { border : solid 1px ; background-color: green   ; }
+.bgcolor_bleu_encadre    { border : solid 1px ; background-color: blue    ; }
+.bgcolor_gris_encadre    { border : solid 1px ; background-color: #666666 ; }
+.bgcolor_orange_encadre  { border : solid 1px ; background-color: orange  ; }
+
+.bgcolor_slate_encadre   { border : solid 1px ; background-color: #99CCFF ; } /*  17 */
+
+.fond_jaune_clair { background-color : #FFFFCC }
+.fond_jaune2 { background-color : #FFCC33 }
+.couleur_bleu { color : #6677ff }
+.fond_bleu_clair  { background-color : #CCFFFF }
+.fond_bleu_clair2 { background-color : RGB(170, 253, 249) }
+
+.jetevois       { visibility : visible ; }
+.jenetevoispas  { visibility : hidden  ; }
+.visible   { visibility : visible ; }
+.enbloc    { display : block }
+.invisible { visibility : hidden  ; display : none  }
+
+.gros_car    { font-size : 300% }
+.gros_car700 { font-size : 700% }
+.gros_car_20pt { font-size : 20pt }
+.gros_car_30pt { font-size : 30pt }
+.gros_car_60pt { font-size : 60pt }
+
+.grd_interligne { line-height : 100pt }
+
+/* gros bord bleu foncé épais */
+
+.gbbe {  border :  thick #000088 solid }
+
+/* gros bord bleu foncé épais avec "collapse" */
+
+.gbbec {  border :  thick #000088 solid ; border-collapse : collapse }
+
+/* bord bleu clair fin  */
+
+.bbcf {  border :  thin #3399ff solid  ; }
+
+/* bord bleu clair fin pointillé */
+
+.bbcfp {  border :  thin #3399ff dashed ; }
+
+/* cases espacées "qui respirent" */
+
+.respire { padding : 40pt }
+
+.taille_7 { font-size : 20pt }
+
+/* en taille 5 ou équivalent */
+
+.taille_5 { font-size : 16pt }
+
+.taille_3 { font-size : 8pt }
+
+.sport  { width : 400px ; background-color : yellow ;}
+.equipe { font-size : 50pt ; width : 180px ; color  : blue ; border : thin solid ; text-align : center }
+.score  { font-size : 30pt ; width : 180px  ; border : thin solid ; color : green ; text-align : center}
+.marque { font-size : 80pt ; width : 90px ; border : thin solid ; color : red ; text-align : center}
+.floatXleft  { float : left ; }
+.clearXleft  { clear : left ; }
+
+.collapse {  border-collapse : collapse }
+.separate {  border-collapse : separate }
+.bgcolor_yellow {  background-color : yellow }
+.font_size_plus_un { font-size : large }
+.color_000088 { color :  #000088 ; }
+.bgcolor_BBBBBB {  background-color : #BBBBBB }
+
+/* Sortable tables */
+
+.tableviolet {
+    background-color:#CCCCFF;
+}
+
+table.sortable thead {
+    background-color:#CCCCFF;  /* #CC6699;  */
+    color: black;
+    font-weight: bold;
+    cursor: default;
+}
+
+.valigntop { vertical-align : top }
+.valignbottom { vertical-align : bottom }
+.valignmiddle { vertical-align : middle }
+.pluspetit { font-size : smaller }
+.plusgros  { font-size : larger }
+.trespetit { font-size : x-small }
+.gris { color : #444444 }
+.fondgris { background-color : #DDDDDD }
+
+.ldc { border : solid 3px #880000 ; background : #CCFFFF }
+
+/* pour ne pas avoir d'ascenseur dans les "textarea" */
+
+.oh { overflow : hidden }
+
+/* couleurs pastel pour les résultats de caractérisation spécifique */
+
+.vert_pastel   { background-color   : #CCFFCC  }
+.orange_pastel { background-color   : #FFCC99  }
+.rouge_pastel  { background-color   : #FF3333  }
+.bleu_pastel   { background-color   : #CCFFFF  }
+.jaune_pastel  { background-color   : #FFFFCC  }
+.fond_jaune { background-color   : yellow  }
+.jaune { color   : yellow  }
+.fond_rouge    { background-color   : #880000  }
+.gris_pastel   { background-color   : #BBBBBB  }
+.coul_jaune    { color : yellow }
+
+.bgcolor_BBBBBB { background-color   : #BBBBBB }
+
+/* importé de W3C validator */
+
+.valid, .valid strong {
+  background-color:	#55B05A;
+  color:		white;
+  line-height:2em ;
+}
+
+.invalid, .invalid strong {
+  background-color:	#D23D24 !important;
+  color:		white !important;
+  line-height:2em ;
+}
+
+.fieldsetGH {
+  background-color : #a0c4de;
+  border        : 1px solid ;
+  border-color  : #525787   ;
+  margin-bottom : 15px      ;
+  padding-top   : 10px      ;
+  text-align    : left      ;
+  width         : 50em      ;
+} /* fin de style fieldsetGH */
+
+.legendeGH {
+  background-color : #FFFFCC      ;
+  border           : 1px solid    ;
+  border-color     : #525787      ;
+  color            : #08294d      ;
+  font-family      : arial        ;
+  font-size        : 80%          ;
+  font-weight      : bold         ;
+  padding          : 0.2em 0.5em  ;
+  text-align       : left         ;
+}
+
+.noir  { color : black }
+.court60p { width : 60% }
+.court70p { width : 70% }
+.court80p { width : 80% }
+
+/* 10 juin 2010 pour Aspw */
+.fond_aspw    { background-color: #c3d3e6;  }
+.bleu_ardoise { background-color: #c3d3e6;  }
+
+/* 12 juin 2010 pour Stim */
+
+.orange_stim  { color : #FF6600 ; }
+.sansgras     { font-weight : normal }
+
+/* 2 juillet 2010 pour LEAPdb */
+
+.fond_orange    { background-color: #FFCC99 ;  }
+.of { overflow : auto }
+
+/* 18 octobre 2010, après réflexion */
+
+a:hover  { background-color : yellow ;
+           text-decoration : none ;
+           color : #880000 ;
+           border-color : white ;
+           border-style : solid ;
+           border-width : thin  ;
+           padding : 0px ;
+}
+
+.cligne  { text-decoration : blink }
+
+/* 15 novembre pour Farcompr */
+
+.taille4enbleu { font-size : 4ex ; color : blue }
+.taille4 { font-size : 4ex ; }
+.taille4 { font-size : 4ex ; }
+.taille3 { font-size : 2em ; }
+.taille3x { font-size : 3ex ; }
+
+/* pour Christophe (et pour qu'elle revienne !) */
+
+.aline { text-indent : 1cm }
+
+/* pas de <dl compact> en strict, on "bricole" */
+
+.dtcompact  { float : left ; padding : 0 }
+.dlcompact  { float : left ; padding : 0 }
+
+.dl.table-display {
+width: 41.1em;
+margin: 2em 0;
+padding: 0;
+}
+
+.table-display dt {
+width: 15em;
+float: left;
+margin: 0 0 0 0;
+padding: .5em;
+}
+
+/* hack de commentaire avec un antislash pour ie5 mac \*/
+dt { clear: both; }
+/* end hack */
+
+.table-display dd {
+float: left;
+width: 24em;
+margin: 0 0 0 0;
+padding: .5em;
+}
+
+.bgcolor_noir_encadre   { border : solid 1px ; background-color: #000000 ; }
+
+/* pour drag and drop */
+
+.drapeau { display : block }
+
+/* pour bfc */
+
+.fond_bleu   { background-color: blue ; }
+.fond_vert   { background-color: green ; }
+.fond_jaune  { background-color: yellow ; }
+.fond_orange { background-color: orange ; }
+.fond_rouge  { background-color: red ; }
+
+.bord_fin { border : solid 1px }
+.paliste { list-style : none }
+.blockwidth200 { display : block ; width : 200px ; float : left ; z-index : 2 ; margin : 5px ; padding : 5px ; vertical-align : middle ; height : 150px }
+.floatclear { clear : both ; }
+
+
+.rien {
+ text-decoration  : none ;
+ border-style     : none ;
+}
+
+/* pour Datasets */
+
+.reliureb   { background-image:url("reliureb.jpg") }
+.fond_blanc { background-color: white   ; }
+.en_blanc   { color: white   ; }
+.moitie     { width : 50% }
+.troisquarts    { width : 75% }
+
+/* hélas, ".tiret      { list-style-type : hyphen }" n'existe pas ! */
+
+ul.tirets {
+ list-style-type : none
+} /* fin de ul.tirets */
+
+li.tirets:before {
+ content : "- "
+} /* fin de li.tirets:before */
+
+.nobold { font-weight : normal }
+
+.sansrc { white-space : nowrap }
+
+.demiLargeur { width : 50% }
+.troisquarts { width : 75% }

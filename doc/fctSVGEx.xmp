@@ -1,0 +1,14 @@
+axeGrapheY($max, $max, $nbIntervalle, $largeurLettreGroupement, $tabTotalGroupement, $quadrillage);
+axeGrapheX($max, $largeurLettreGroupement, $tabTotalGroupement, $nbDec, $quadrillage);
+
+axeGrapheY($hauteurSeq, $hauteurSeq-$hauteurSeq/4, 4, $largeurLettreGroupement, $tabTotalGroupement, $quadrillage);
+
+axeSeqX($hauteurSeq, $largeurLettre, $tabSection, $tabTitres, $texteSeqCla);
+
+axeSeqY($hauteurSeq, $largeurLettre);
+
+finSvg();
+
+lettre($max, $largeurLettreGroupement, strval($cle), $elem*$zoom, $x, 0);
+
+svg($hauteurSeq, $largeur,$largeurLettreGroupement,"graphique");

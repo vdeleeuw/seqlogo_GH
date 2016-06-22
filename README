@@ -1,0 +1,16 @@
+﻿DE LEEUW Valérian
+Production de seqlogos généralisé
+
+Principe :
+Ce projet a été réalisé durant mon année de M1 avec l'aide de mon tuteur (Hunault Gilles).
+Il consiste à générer des graphiques afin de pouvoir analyser des textes.
+Deux types de textes sont analysables : FASTA (biologie) et des textes littéraires.
+Des tableaux de comptages sont fournis, ainsi que 3 graphiques : seqlogo, arbre, camembert.
+
+Déploiement :
+La page principale du site est "seqlogo.php".
+Il faut avoir un serveur apache pour les pages PHP et la majorité du site fonctionnera.
+Pour le dernier graphique (Krona), il faut Perl et Krona en plus sur le seveur ainsi qu'un navigateur html5 valide.
+
+Documentation :
+Une documentation des fonctions php est disponible une fois le site déployé.

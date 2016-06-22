@@ -1,0 +1,98 @@
+
+/* svg */
+.graphique{
+}/* fin graphique */
+
+.graphique .grille{
+	stroke-width: 1;
+	stroke: black;
+  	stroke-dasharray: 0;
+}/* fin graphique & grille */
+
+.graphique .quadrillage{
+	stroke-width: 1;
+	stroke: black;
+	stroke-dasharray: 1,5;
+}/* fin graphique & quadrillage */
+
+.graphique .legendeX{
+	text-anchor: middle;
+}/* fin graphique legendeX */
+
+.graphique .legendeY{
+	text-anchor: end;
+}/* fin graphique legendeY */
+
+.legende{
+	font-size: 13px;
+}/* fin legende */
+
+.axeTitre{
+	text-transform: uppercase;
+	font-weight: bold;
+	fill: black; 
+	font-size: 14px;
+}/* fin axeTitre */
+
+/* lettres */
+.lettre{
+	font-family:Sans-Serif;
+	text-anchor:start;
+}/* fin lettre */
+
+
+/* couleurs lettres */
+.lettreA{fill: aqua;}
+.lettreB{fill: blue;} 
+.lettreC{fill: fuchsia;}
+.lettreD{fill: green;}
+.lettreE{fill: maroon;}
+.lettreF{fill: navy;}
+.lettreG{fill: olive;}
+.lettreH{fill: lime;}
+.lettreI{fill: orange;}
+.lettreJ{fill: red;}
+.lettreK{fill: teal;}	
+.lettreL{fill: yellow;}
+.lettreM{fill: Turquoise;}
+.lettreN{fill: CadetBlue;}
+.lettreO{fill: LightSeaGreen;}
+.lettreP{fill: Crimson;}
+.lettreQ{fill: YellowGreen;}
+.lettreR{fill: Gold;}
+.lettreS{fill: PaleVioletRed ;}
+.lettreT{fill: purple;}
+.lettreU{fill: SeaGreen;}
+.lettreV{fill: Khaki;}
+.lettreW{fill: gray;}
+.lettreX{fill: SlateBlue;}
+.lettreY{fill: HotPink;}
+.lettreZ{fill: Salmon;}
+/* fin couleurs lettres */
+
+/* couleurs groupements */
+.lettreApIpLpV{fill: blue;}
+.lettreCpFpYpW{fill: green;}
+.lettreCpW{fill: purple;}
+.lettreDpE{fill: orange;}
+.lettreDpEpKpR{fill: teal;}
+.lettreDpEmKmR{fill: fuchsia;}
+.lettreFpWpY{fill: olive;}
+.lettreKpR{fill: yellow;}
+.lettreNpQ{fill: maroon;}
+.lettreRpEpSpP{fill: red;}
+.lettreSpT{fill: navy;}
+/* fin couleurs groupements */
+
+/* couleurs chiffres */
+.lettre0{fill: LawnGreen;}
+.lettre1{fill: MidnightBlue;}
+.lettre2{fill: OrangeRed;}
+.lettre3{fill: MediumSeaGreen;}
+.lettre4{fill: DarkMagenta;}
+.lettre5{fill: DeepPink;}
+.lettre6{fill: DarkRed;}
+.lettre7{fill: DarkCyan;}
+.lettre8{fill: ForestGreen;}
+.lettre9{fill: MediumOrchid;}
+/* fin couleurs chiffres */
